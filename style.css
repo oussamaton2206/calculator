@@ -1,0 +1,40 @@
+#display{
+    width: 100%;
+    padding: 30px;
+    background: hsl(0, 0%, 20%);
+    border: none;
+    font-size: 4rem;
+    color: white;
+}
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    place-items: center;
+    padding: 2rem;
+    gap: 10px;
+    font-family: Arial, sans-serif;
+}
+#calculator{
+    background: hsl(0, 0%, 10%);
+    border-radius: 20px;
+    overflow: hidden;
+    max-width: 500px;
+}
+button{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    font-size: 2rem;
+    border: none;
+    background: hsl(0, 0%, 40%);
+    color: white;
+}
+button:hover{
+    background: hsl(0, 0%, 50%);
+}
+#diffBtns{
+    background: hsl(44, 96%, 44%);
+}
+#diffBtns:hover{
+    background: hsl(44, 100%, 58%);
+}
